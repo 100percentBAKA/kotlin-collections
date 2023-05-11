@@ -1,3 +1,5 @@
+// Program to show the working of filter method in Kotlin Maps 
+
 fun main () {
     val oldMap = mutableMapOf(1 to "apple", 2 to "kotlin", 3 to "java", 4 to "flutter", 5 to "Scala")
     val filteredMap = oldMap.filter { (key, value) -> key >= 3 && value.endsWith("a") }.toMutableMap()
