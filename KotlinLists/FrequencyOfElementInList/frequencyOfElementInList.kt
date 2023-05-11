@@ -16,3 +16,13 @@ fun main () {
         println("$i : ${arr[i]}")
     }
 }
+
+// The output is as follows :
+// 0 : 0 as we have initialized an empty array
+
+// 0 : 0
+// 1 : 3
+// 2 : 2
+// 3 : 1
+// 4 : 1
+// 5 : 1
