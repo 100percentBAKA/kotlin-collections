@@ -12,7 +12,7 @@ fun main () {
         for(j in i + 1 until arr.size) {
             if(arr[i] == arr[j]) {
                 arr.removeAt(j)
-                break // the iteration inside the inner loop should not continue as the size of the array list changes after the element id removed
+                break // the iteration inside the inner loop should not continue as the size of the array list changes after the element is removed
             }
         }
     }
