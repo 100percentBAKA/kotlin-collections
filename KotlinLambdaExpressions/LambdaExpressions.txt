@@ -1,0 +1,6 @@
+-> Lambda Expressions
+---> Lambda Expressions and anonymous functions are 'function literals', i.e functions 
+     that are not declares, but passed immediately as an Expressions
+---> Lambda is defined with curly braces {} which takes variables as a parameter (if any) and a body of a function
+---> The body of a function is written after the variable (if any) followed by -> operator
+--> SYNTAX : { variable(s) -> body_of_lambda }
